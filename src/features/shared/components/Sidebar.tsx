@@ -2,6 +2,7 @@ import type { IconType } from "react-icons";
 import { FaCableCar } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { CiBellOn } from "react-icons/ci";
+import { FaPlateWheat } from "react-icons/fa6";
 
 interface NavProps {
     icon: IconType,
@@ -66,7 +67,7 @@ function SideBar() {
         />
           <NavItem
             to="/recipes"
-            icon={FaCableCar}
+            icon={FaPlateWheat}
             color="#999"
             size={20}
             label="Recipes"

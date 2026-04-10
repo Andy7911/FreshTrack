@@ -8,7 +8,7 @@ export function Layout(){
 
 return(<div className="flex h-screen">
 <SideBar/>
-<main className="flex-1">
+<main className="flex-1 bg-[#0A0E0A]">
   <Header/>  
 <Outlet/>
 </main>

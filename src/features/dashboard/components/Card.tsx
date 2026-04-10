@@ -16,7 +16,7 @@ const Card = ({ title, numb, subTitle }: CardBody) => {
             {title} <BiSolidCheckboxChecked color="#000" size={30}  className="ml-3"/>
         </span>
         <div className=" ">
-            <h1 className=" text-4xl font-[poppins]"> {numb}</h1>
+            <h1 className=" text-4xl font-[poppins] "> {numb}</h1>
             <span className="font-[DM-Mono]">{subTitle}</span>
         </div>
 

@@ -45,7 +45,7 @@ function NavItem({ icon: Icon, size: Size, label, active = false, color, to }: N
 function SideBar() {
 
 
-    return (<div className="flex flex-col w-1/5 p-3 bg-amber-50">
+    return (<div className=" hidden md:flex flex-col w-1/5 p-3 bg-amber-50 sm:hidden md:block ">
 
         <div className=" bg-amber-50">
             <span className=" font-[Playfair]">Anti-gaspillage</span>

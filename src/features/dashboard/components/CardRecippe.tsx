@@ -37,7 +37,7 @@ function CardRecippe() {
                 <span className=" bg-gray-400 h-fit rounded-sm text-sm font-light p-2"> Stock </span>
         </div>
 
-<div className="mt-4 flex flex-wrap gap-2"> <div className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-3 py-2 text-sm font-semibold text-white"> <FiCheckCircle/>  <span>Consomme</span> </div> <div className=" inline-flex items-center gap-2 rounded-full bg-amber-600 px-3 py-2 text-sm font-semibold text-white "> <FiBookOpen/><span>Cuisine </span></div> <div className=" bg-red-500 inline-flex items-center gap-2 rounded-full  px-3 py-2 text-sm font-semibold text-white "> <FiTrash2/> <span>Jete </span></div></div>
+            <div className="mt-4 flex flex-wrap gap-2"> <div className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-3 py-2 text-sm font-semibold text-white"> <FiCheckCircle/>  <span>Consomme</span> </div> <div className=" inline-flex items-center gap-2 rounded-full bg-amber-600 px-3 py-2 text-sm font-semibold text-white "> <FiBookOpen/><span>Cuisine </span></div> <div className=" bg-red-500 inline-flex items-center gap-2 rounded-full  px-3 py-2 text-sm font-semibold text-white "> <FiTrash2/> <span>Jete </span></div></div>
 
     </article>)
 

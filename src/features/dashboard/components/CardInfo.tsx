@@ -21,7 +21,7 @@ const Tones = {
 const CardInfo = ({ label, numb, subTitle,tone="default",icon }: CardBody) => {
 
 
-    return (<article className={`px-2 ${Tones[tone]}  rounded-xl py-4 pb-4 w-[calc(25%-10px)]`}>
+    return (<article className={`px-2 ${Tones[tone]}  rounded-xl py-4 pb-4 w-[calc(100%-10px)]   md:w-[calc(25%-10px)]  sm:w-[calc(50%-10px)] mb-2`}>
         <span className="flex justify-between">
             {label} {icon ?  <div className="text-xl">{icon}</div> :null}
         </span>

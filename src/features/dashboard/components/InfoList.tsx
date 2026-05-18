@@ -16,7 +16,7 @@ const InfoList = ({label,subText,linkText,defaultText}:CardInfo) => {
 
 
     return (
-        <div className=" py-6 px-6 bg-amber-50 rounded-xl ">
+        <div className=" py-6 px-6 bg-amber-50 rounded-xl  mb-4">
             <div className="top flex justify-between mb-2">
                 <div>
                     <h2 className=" font-bold text-2xl">

@@ -7,3 +7,8 @@ export interface FoodItem{
     expirationDate:string
     status:"FRESH" | "EXPIRING_SOON" | "EXPIRED";
 }
+
+export interface Stats {
+
+
+}

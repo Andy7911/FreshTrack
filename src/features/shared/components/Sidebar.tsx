@@ -45,9 +45,9 @@ function NavItem({ icon: Icon, size: Size, label, active = false, color, to }: N
 function SideBar() {
 
 
-    return (<div className="flex flex-col w-1/5 p-3 bg-amber-500">
+    return (<div className="flex flex-col w-1/5 p-3 bg-amber-50">
 
-        <div className=" bg-green-500">
+        <div className=" bg-amber-50">
             <span className=" font-[Playfair]">Anti-gaspillage</span>
             <h1 className="">FreshTrack</h1>
         </div>

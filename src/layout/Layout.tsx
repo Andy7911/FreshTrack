@@ -6,7 +6,7 @@ import Header from "../features/shared/components/Header";
 export function Layout(){
 
 
-return(<div className="flex h-screen">
+return(<div className="mx-auto flex min-h-screen max-w-7xl flex-col md:flex-row">
 <SideBar/>
 <main className="flex-1 bg-[#0A0E0A]">
   <Header/>  
